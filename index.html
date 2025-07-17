@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aarthur Borges – Advogado</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --primary: #000000;
+      --secondary: #e0b973;
+      --text: #ffffff;
+      --muted: #cccccc;
+      --font-title: 'Playfair Display', serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--primary);
+      color: var(--text);
+      font-family: var(--font-body);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 3rem 1rem;
+      text-align: center;
+      background-color: #111;
+    }
+
+    header h1 {
+      font-family: var(--font-title);
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin: 1rem 0;
+      color: var(--muted);
+    }
+
+    .btn {
+      background-color: var(--secondary);
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #d1a95f;
+    }
+
+    section {
+      padding: 4rem 1rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    .sobre, .atuacao, .diferenciais, .cta-final {
+      margin-bottom: 4rem;
+    }
+
+    .diferenciais ul{
+      text-align: center;
+
+    }
+
+    .sobre img {
+      max-width: 250px;
+      border-radius: 50%;
+      margin-bottom: 2rem;
+    }
+
+    .atuacao-cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      padding: 1.5rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .card h3 {
+      font-family: var(--font-title);
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    .creditos{
+        color: grey;
+        font-size:10px;
+        margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      border-top: 1px solid #222;
+    }
+
+    .whatsapp-fix {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #25D366;
+      color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1.8rem;
+      z-index: 999;
+    }
+
+    @media (max-width: 600px) {
+
+      *{
+        padding: 3px;
+      }
+      header h1 {
+        font-size: 1.8rem;
+      }
+      section {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aarthur Borges – Advogado</h1>
+    <p>Atendimento jurídico eficiente direto ao ponto!</p>
+    <a href="https://wa.me/555182376760" class="btn" target="_blank">Fale agora via WhatsApp</a>
+  </header>
+
+  <section class="sobre" id="sobre">
+    <div style="text-align: center">
+      <img src="./images/[ART] Foto Perfil site.png" alt="Foto do Aarthur Borges">
+      <p>Com atendimento dedicado e linguagem clara, Aarthur Borges atua com foco na solução dos problemas jurídicos que impactam a sua vida. Aqui, você encontra um aliado confiável e transparente para cuidar do que realmente importa.</p>
+    </div>
+  </section>
+
+  <section class="atuacao" id="atuacao">
+    <h2 style="text-align:center; font-family: var(--font-title); font-size: 2rem;">Áreas de Atuação</h2>
+    <div class="atuacao-cards">
+      <div class="card">
+        <h3>Família</h3>
+        <p>Divórcios, pensão alimentícia, guarda e outros conflitos familiares tratados com sensibilidade e eficiência.</p>
+      </div>
+      <div class="card">
+        <h3>Cível</h3>
+        <p>Defesa em processos criminais com estratégia, ética e atenção total ao cliente.</p>
+      </div>
+      <div class="card">
+        <h3>Sucessões (Inventário)</h3>
+        <p>Consultoria e suporte jurídico para empresas, contratos e prevenção de riscos legais.</p>
+      </div>
+      <div class="card">
+        <h3>Trabalhista</h3>
+        <p>Atuação em causas trabalhistas, tanto para empregadores quanto para empregados.</p>
+      </div>
+
+       <div class="card">
+        <h3>Ambiental</h3>
+        <p>Consultoria e suporte jurídico para empresas, contratos e prevenção de riscos legais.</p>
+      </div>
+
+      <div class="card">
+        <h3>Consumidor</h3>
+        <p>Consultoria e suporte jurídico para empresas, contratos e prevenção de riscos legais.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="diferenciais">
+    <h2 style="text-align:center; font-family: var(--font-title); font-size: 2rem;">Por que escolher Aarthur Borges?</h2>
+    <ul style="list-style: none; padding: 2; max-width: 900px; margin: 2rem auto;">
+      <li style="margin-bottom: 1rem;">✔ Atendimento humanizado e próximo, com escuta ativa, empatia e atenção individual, garantindo que cada cliente se sinta acolhido e compreendido. </li>
+      <li style="margin-bottom: 1rem;">✔ Clareza na comunicação, sem juridiquês. Explicações objetivas e em linguagem simples, para que você entenda cada etapa do processo sem complicações ou termos difíceis.</li>
+      <li style="margin-bottom: 1rem;">✔ Foco na solução e não no problema.Atuação prática e resolutiva, buscando caminhos eficientes para resolver seu caso da melhor forma possível, sem enrolação.</li>
+      <li style="margin-bottom: 1rem;">✔ Comprometimento real com cada cliente. Envolvimento total com a sua causa, tratando cada processo com seriedade, dedicação e respeito aos seus direitos e necessidades.</li>
+    </ul>
+  </section>
+
+  <section class="cta-final" style="text-align:center;">
+    <h2 style="font-family: var(--font-title); font-size: 2rem;">Fale com o advogado agora mesmo</h2>
+    <p style="margin: 1rem 0;">Atendimento rápido e direto pelo WhatsApp</p>
+    <a href="https://wa.me/555182376760" class="btn" target="_blank">Iniciar conversa no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>Aarthur Borges | OAB/RS 124.990</p>
+    <p>© 2025 Todos os direitos reservados</p>
+    <p class="creditos">Desenvolvido por Luan Ubinski</p>
+  </footer>
+
+ <a href="https://wa.me/555182376760" class="whatsapp-fix" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+  
+</body>
+</html>
