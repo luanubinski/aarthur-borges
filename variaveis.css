@@ -1,0 +1,8 @@
+:root {
+        --primary: #000000;
+        --secondary: #e0b973;
+        --text: #ffffff;
+        --muted: #cccccc;
+        --font-title: "Playfair Display", serif;
+        --font-body: "Inter", sans-serif;
+      }

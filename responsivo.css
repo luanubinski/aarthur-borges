@@ -1,0 +1,32 @@
+      @media (max-width: 600px) {
+        * {
+          box-sizing: border-box;
+        }
+
+        header p {
+          font-size: 15px;
+        }
+
+        header img{
+          max-width: 150px;
+        }
+
+        section {
+          padding: 2rem 3rem;
+        }
+
+        .atuacao-cards {
+          grid-template-columns: 1fr;
+        }
+
+        .sobre img {
+          max-width: 180px;
+        }
+
+        .sobre{
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
+
+      }

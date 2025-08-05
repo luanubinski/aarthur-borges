@@ -1,0 +1,144 @@
+body {
+        background-color: var(--primary);
+        color: var(--text);
+        font-family: var(--font-body);
+        line-height: 1.6;
+      }
+
+      header {
+        padding: 3rem 1rem;
+        text-align: center;
+        background-color: #fff;
+      }
+
+      header img {
+        width: 300px;
+      }
+
+      header p {
+        font-size: 1.1rem;
+        color: #000;
+      }
+
+      .btn {
+        background-color: var(--secondary);
+        color: #000;
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        text-decoration: none;
+        display: inline-block;
+        transition: background 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: #d1a95f;
+      }
+
+      section {
+        padding: 4rem 1rem;
+        max-width: 1080px;
+        margin: auto;
+      }
+
+      .sobre,
+      .atuacao,
+      .diferenciais,
+      .cta-final {
+        margin-bottom: 4rem;
+      }
+
+      .diferenciais ul {
+        text-align: left;
+      }
+      .sobre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+      }
+
+      .sobre img {
+        max-width: 250px;
+        border-radius: 50%;
+      }
+
+      .info h2 {
+        font-weight: bolder;
+        font-size: 40px;
+        margin-bottom: 15px;
+      }
+
+      .info p{
+        max-width: 700px;
+      }
+
+      .info a{
+        margin-top: 12px;
+        padding: 0.2rem 1rem;
+      
+
+      }
+
+      .atuacao-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .card {
+        background-color: #1a1a1a;
+        padding: 1.5rem;
+        border-radius: 8px;
+        text-align: center;
+      }
+
+      .card h3 {
+        font-family: var(--font-title);
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .card p {
+        font-size: 0.95rem;
+        color: var(--muted);
+      }
+
+      .creditos {
+        color: grey;
+        font-size: 10px;
+        margin-top: 15px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        font-size: 0.9rem;
+        color: var(--muted);
+        border-top: 1px solid #222;
+      }
+
+      footer p{
+        margin-bottom: 15px;
+
+      }
+    
+
+      .whatsapp-fix {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: #25d366;
+        color: white;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1.8rem;
+        z-index: 999;
+      }
